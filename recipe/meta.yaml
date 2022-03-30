@@ -1,5 +1,5 @@
 {% set name = "qsharp-core" %}
-{% set version = "0.23.195983" %}
+{% set version = "0.24.201332" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qsharp-core-{{ version }}.tar.gz
-    sha256: a803b7dee5171c181466b1360af52d5afa7bbc0946852ec00bdab3b4bd7ed7a5
+    sha256: e28561b3bcc18715661d6c784045682e3dc2048d876478dbda055547a803a1cb
   - url: https://raw.githubusercontent.com/microsoft/iqsharp/release/v{{ version }}/LICENSE
     sha256: dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6
 
@@ -23,7 +23,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - jupyter_client
+    - jupyter_client <7.0
     - python >=3.6
     - pyzmq <20.0.0
 
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://github.com/microsoft/iqsharp
-  summary: 'Python client for Q#, a domain-specific quantum programming language'
+  summary: Python client for Q#, a domain-specific quantum programming language
   license: MIT
   license_file: LICENSE
   dev_url: https://github.com/microsoft/iqsharp/tree/main/src/Python/qsharp-core

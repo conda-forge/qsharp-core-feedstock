@@ -23,7 +23,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - jupyter_client
+    - jupyter_client <7.0
     - python >=3.6
     - pyzmq <20.0.0
 

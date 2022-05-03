@@ -17,6 +17,7 @@ build:
   number: 0
   script_env:
     - QSHARP_PY_CLIENT=mock
+    - PYTHON_VERSION={{ version }}
 
 requirements:
   host:

@@ -1,5 +1,5 @@
 {% set name = "qsharp-core" %}
-{% set version = "0.25.218240" %}
+{% set version = "0.25.228311" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qsharp-core-{{ version }}.tar.gz
-    sha256: 5a7fde168279d639018e0507582c926dd979ce965194621d2c3b146387645e2a
+    sha256: 6cfcd68f5674ca7edd6ceded3ad9f047fe64ef6f6e94f2b4ec58af634011dcfe
   - url: https://raw.githubusercontent.com/microsoft/iqsharp/release/v{{ version }}/LICENSE
     sha256: dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6
 

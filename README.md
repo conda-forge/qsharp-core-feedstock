@@ -1,11 +1,11 @@
-About qsharp-core
-=================
+About qsharp-core-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qsharp-core-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/microsoft/iqsharp
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qsharp-core-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client for Q#, a domain-specific quantum programming language
 
